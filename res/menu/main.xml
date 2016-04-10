@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:walkroughs="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+          android:title="@string/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:showAsAction="always"/>
+    
+    <item android:id="@+id/action_back"
+          android:icon="@drawable/ic_action_back"
+          android:title="@string/action_back"
+          android:showAsAction="ifRoom" />
+
+</menu>

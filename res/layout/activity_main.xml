@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainstage"    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   
+    android:keepScreenOn="true" 
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#e5e5e5"
+        android:paddingTop="5px"
+        android:paddingBottom="0dp"
+        android:divider="@null"
+        android:dividerHeight="0dp">
+    </ListView>
+    
+    <ScrollView 
+        android:id="@+id/sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF">
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10px" />        
+       </ScrollView>
+       
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:id="@+id/searchView"
+    android:visibility="gone"
+    android:background="#FFF">
+  <EditText
+    android:id="@+id/searchText"
+    android:hint="@string/find_game" 
+    android:layout_width="0dp"
+    android:layout_height="48dp"
+    android:layout_weight="100.0" />
+  <Button
+    android:id="@+id/searchSubmit"
+       android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+    android:focusable="true"
+    android:background="@drawable/ic_action_play" />
+  </LinearLayout>  
+  
+ <com.google.android.gms.ads.AdView
+                         xmlns:ads="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/adView"
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:gravity="bottom"
+                         ads:adUnitId="@string/admob_publisher_id"
+                         ads:adSize="SMART_BANNER"                         
+   android:layout_alignParentBottom="true" />
+    
+</RelativeLayout>
+    

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">xGuides</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_back">Назад</string>
+    <string name="title_activity_main">проХождения</string>
+    <string name="error_connection_title">Ошибка соединения</string>
+    <string name="error_connection_text">Нет доступа к сети</string>
+    <string name="error_connection_article" formatted="false"><![CDATA[
+<title>Ошибка соединения</title>
+<div><img src="connection_error"></div>
+    ]]></string>
+    <string name="error_connection_exit_button">Выйти</string>
+    <string name="error_connection_settings_button">Настройки</string>
+    <string name="error_connection_exit_message">Выход из приложения</string>
+    <string name="before_exit_message">Нажмите ещё раз для выхода</string>
+    <string name="download_message">Загрузка</string>   
+    <string name="find_game">Игра, персонаж, глава:</string> 
+    <string name="admob_publisher_id">a1529df7f30e8b4</string>      	
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingLeft="10px"
+android:paddingRight="10px"
+android:paddingTop="5px"
+android:paddingBottom="5px">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"    
+    android:background="@drawable/card_background">
+    
+   <ImageView
+        android:id="@+id/icon"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginTop="0px"
+        android:layout_marginBottom="0px"
+         >
+    </ImageView>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15px"
+    android:orientation="vertical"> 
+    <TextView android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   		android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginTop="0px"
+        />
+    
+    <TextView android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   		android:layout_marginLeft="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginTop="5px"
+        android:textSize="11sp"
+        android:textStyle="italic"/>
+    
+    </LinearLayout> 
+
+</LinearLayout>
+</FrameLayout>
